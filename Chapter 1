@@ -1,0 +1,102 @@
+1. How would you define machine learning?
+Machine learning is the art and science of programming computers so that they can learn from data.
+It gives computers the ability to learn without being explicitly programmed.
+Correct.
+
+2. Can you define four types of problems where it shines?
+* Algorithms or processes that requires a long list of complex rules and that may need to be constantly fine-tuned
+* Identifying patterns and important conclusions from large datasets
+* Problems that are either too complex for traditional approaches or have no known algorithm.
+* Fluctuating environments since machine learning systems can adapt to new data
+Correct.
+
+3. What is a labeled training set?
+Labeled data in a group of sample have been tagged with one or multiple informative labels.
+This is a prerequisite in supervised learning in which the data you feed the algorithm
+includes the desired solution, which is included in the dependent variable.
+A labeled data-set is a data-set that contains a field with the desired solution.
+COrrect.
+
+4. What are the two most common supervised tasks?
+* Classification
+* Regression.
+* (Optional) Certain types of neural networks
+Correct.
+
+5. Can you name four common unsupervised tasks?
+* Anomaly detection and novelty detection
+* Dimensionality reduction
+* Clustering
+* Visualisation
+* Association rule learning
+Correct.
+
+6. Reinforcement learning since the method would need to be able to adapt depending
+on the changing terrain and the new conditions which it may face.
+Correct.
+
+7. Clustering algorithm, however if you know what customers you would like to have,
+then you can provide examples of such groups to the algorithm and use classification.
+Incorrect.
+
+
+8. I would categorise it as supervised learning since the method would unsupervised
+method would need to be trained using labeled data (i.e. spam or not spam).
+The method could be improved by running semi-supervised learning using partially
+labelled data, which could be improved incrementally by the users classifying
+e-mails as spam.
+Correct.
+
+9. What is an online learning system?
+An online learning system represents a system that can be trained incrementally
+using mini-batches. These systems require less io, data, memory, disk space and cpu than traditional
+off-line learning systems that needs to be implemented through batch-learning.
+Each learning is fast and cheap. These methods are great for systems
+that needs to learn incrementally or that receives data as a continous flow
+(e.g. stocks). It is also a good system if you have limited resources.
+A challenge is that if bad data is loaded into the system the performance will decline
+faster than a corresponding off-line solution.
+Correct.
+
+10. What is out-of-core learning
+Online systems can also be used to train systems on huge data-sets that cannot
+fit in one machines memory. This is called out-of-core learning.
+Correct.
+
+11. Instance-based learning system learns the training data by heart; then, when it
+is given a new instance, it uses a similarity measure to find the most similarity
+learned instance and them make predictions. An example of such a model is k-nearest neighbours
+or k-means clustering.
+Correct.
+
+12. The hyper-parameter is part of the model calibration an not the model. The
+hyper-parameter is fixed before training is commenced and remains fixed during
+its duration. Hyper-parameters can be used for regularization or finetuning a calibration.
+Correct.
+
+13. Model based learning algorithms search for an optimal value for the model
+parameters such that the model will generalize well to new instances.
+Models are usually trained by minimising a cost-function that measures how bad the system
+is at making predictions on the training data, plus a penalty for model complexity
+if the model is regularized.
+Correct, but rewritten.
+
+14. Data quality, Non-representative data, Quantity of Training-data, Irrelevant features
+
+15. Overfitting is the most likely answer. This can be fixed by choosing
+a more simple model, regulatization, or selecting the best model using cross-validation.
+
+16. The test-set is used to estimate the generalization error that a model
+will make on new instances.
+
+17. In order to select the best performing model it can be a good idea
+to create a validation data-set. This is a split of the test-set that is used
+in order to evaluate the models based on the train-set. Once a model has been
+selected, it should be calibrated based on the full training-set.
+Cross-validation is another alternative.
+
+18.
+Incorrect
+
+19. If you tune hyperparameters using the test-set you risk overfitting the test-set
+and the generalisation-error you measure will be too optimistic.
